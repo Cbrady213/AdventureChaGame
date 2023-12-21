@@ -17,6 +17,7 @@ public class Character
     public string? Name { get; set; }
     public int Age { get; set; }
     public string? Gender { get; set; }
+    public int Health {get;set;} = 100;
 
     public void PrintCharacter()
     {
@@ -24,35 +25,44 @@ public class Character
         Console.WriteLine($"Welcome {Name} You are {Age} Years old and a {Gender}");
 
         Console.WriteLine($"Your Characters Physical Damage is: {PhysDamage}");
-        Console.WriteLine($"And you do the following amount of damage: {DoPhysDamage(PhysDamage)}");
+        //Console.WriteLine($"And you do the following amount of damage: {
+            DoPhysDamage(PhysDamage);
         Console.WriteLine($"Your Physical defence is curently set as {PhysDefence}");
         Console.WriteLine($"Your Magic Stats are:  Attack : {MagDamage} & Defence : {MagDefence}");
 
 
     }
     //attacks using characters physical damage stats
-    public int DoPhysDamage(int damageVal)
+    public void DoPhysDamage(int damageVal)
     {
         int hitDamage;
 
         hitDamage = damageVal / 2;
 
+        //Health = Health - hitDamage;
 
-        return hitDamage;
+        
+
+
+        //return hitDamage;
 
 
     }
 
     //Returns damage taken due to physical attacks, gets passed enemy damage value and your char def value
 
-    public int TakePhyscDamage(int damageVal, int defenceVal)
+    public void TakePhyscDamage(int damageVal, int defenceVal)
     {
         int hitDamage;
 
         hitDamage = damageVal / defenceVal;
 
+        Health = Health - hitDamage;
 
-        return hitDamage;
+        Console.WriteLine($"You have been hit for {hitDamage}  Your health is now {Health}");
+
+
+        
 
 
     }

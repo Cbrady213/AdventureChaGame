@@ -56,7 +56,10 @@ class Program
 
         ap.PrintCharacter();
 
-        Console.WriteLine($"The enemy hits you for {ap.TakePhyscDamage(detectiveDuck.EnemyDamage, ap.PhysDefence)}");
+        ap.TakePhyscDamage(detectiveDuck.EnemyDamage, ap.PhysDefence);
+
+
+        
 
 
     }

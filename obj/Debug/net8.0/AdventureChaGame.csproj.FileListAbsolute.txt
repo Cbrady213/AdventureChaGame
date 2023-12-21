@@ -12,3 +12,4 @@
 /Users/ciaranbrady/Documents/Programming/AdventureChaGame/obj/Debug/net8.0/AdventureChaGame.pdb
 /Users/ciaranbrady/Documents/Programming/AdventureChaGame/obj/Debug/net8.0/AdventureChaGame.genruntimeconfig.cache
 /Users/ciaranbrady/Documents/Programming/AdventureChaGame/obj/Debug/net8.0/ref/AdventureChaGame.dll
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/obj/Debug/net8.0/AdventureChaGame.sourcelink.json
