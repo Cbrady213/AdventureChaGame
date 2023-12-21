@@ -1,0 +1,14 @@
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/obj/Debug/net8.0/AdventureChaGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/obj/Debug/net8.0/AdventureChaGame.AssemblyInfoInputs.cache
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/obj/Debug/net8.0/AdventureChaGame.AssemblyInfo.cs
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/obj/Debug/net8.0/AdventureChaGame.csproj.CoreCompileInputs.cache
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/bin/Debug/net8.0/AdventureChaGame
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/bin/Debug/net8.0/AdventureChaGame.deps.json
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/bin/Debug/net8.0/AdventureChaGame.runtimeconfig.json
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/bin/Debug/net8.0/AdventureChaGame.dll
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/bin/Debug/net8.0/AdventureChaGame.pdb
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/obj/Debug/net8.0/AdventureChaGame.dll
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/obj/Debug/net8.0/refint/AdventureChaGame.dll
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/obj/Debug/net8.0/AdventureChaGame.pdb
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/obj/Debug/net8.0/AdventureChaGame.genruntimeconfig.cache
+/Users/ciaranbrady/Documents/Programming/AdventureChaGame/obj/Debug/net8.0/ref/AdventureChaGame.dll
