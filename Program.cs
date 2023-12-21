@@ -1,16 +1,19 @@
-﻿using AdventureChaGame.Characters;
+﻿using System.Security.Cryptography.X509Certificates;
+using AdventureChaGame.Characters;
 
 namespace AdventureChaGame;
 
 class Program
 {
+    
     static void Main(string[] args)
     {
 
 
         Character ap = null;
-
         Enemy detectiveDuck = new Enemy{};
+
+        
 
 
 
@@ -18,10 +21,11 @@ class Program
 
         Console.WriteLine($"Please type the type of character you wish to create: ");
         readIn = Console.ReadLine();
+        readIn = readIn.ToLower();
 
 
 
-        if (readIn == "Knight")
+        if (readIn == "knight")
         {
 
 
@@ -30,17 +34,17 @@ class Program
 
         }
 
-        else if (readIn == "Character")
+        else if (readIn == "character")
         {
 
             //Character ap2;
 
-            ap = new Character { Name = "ap", Age = 12, Gender = "female" };
+            ap = new Character { Name = "AP", Age = 12, Gender = "Penguin" };
 
 
         }
 
-        else if (readIn == "Wizard")
+        else if (readIn == "wizard")
         {
 
             //Character ap2;
@@ -57,6 +61,9 @@ class Program
         ap.PrintCharacter();
 
         ap.TakePhyscDamage(detectiveDuck.EnemyDamage, ap.PhysDefence);
+        ap.DoPhysDamage(ap.PhysDamage,detectiveDuck.EnemyDefence);
+
+        detectiveDuck.TakeDamage(ap.DoPhysDamage(ap.PhysDamage,detectiveDuck.EnemyDefence));
 
 
         

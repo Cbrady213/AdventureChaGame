@@ -26,25 +26,26 @@ public class Character
 
         Console.WriteLine($"Your Characters Physical Damage is: {PhysDamage}");
         //Console.WriteLine($"And you do the following amount of damage: {
-            DoPhysDamage(PhysDamage);
+        
         Console.WriteLine($"Your Physical defence is curently set as {PhysDefence}");
         Console.WriteLine($"Your Magic Stats are:  Attack : {MagDamage} & Defence : {MagDefence}");
 
 
     }
     //attacks using characters physical damage stats
-    public void DoPhysDamage(int damageVal)
+    public int DoPhysDamage(int damageVal, int enemyDef)
     {
         int hitDamage;
 
-        hitDamage = damageVal / 2;
+        hitDamage = damageVal / enemyDef;
+        
 
         //Health = Health - hitDamage;
 
         
 
 
-        //return hitDamage;
+        return hitDamage;
 
 
     }
@@ -60,6 +61,8 @@ public class Character
         Health = Health - hitDamage;
 
         Console.WriteLine($"You have been hit for {hitDamage}  Your health is now {Health}");
+
+        
 
 
         
